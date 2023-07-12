@@ -1,0 +1,52 @@
+
+.navbar-custom{
+    background-color: transparent;
+}
+.navbar-scrolled{
+    background-color: black;
+}
+.navbar{
+    transition: all 0.5s;
+}
+.section-heading{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 300%;
+    color: #43B1BA;
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 120%;
+} 
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+} 
+section#outrascampanhas {
+    background-color: #041937;
+    color: white;
+    width: 1348px;
+}
+section#sedes{
+    background-color: #FFF9E2;
+    color: #041937;
+    width: 1348px;
+}
+section#pag1{
+    background-color: #FFF9E2;
+    color: #ffffff;
+    width: 1348px;
+}
+section#pag2{
+    background-color: #FFF9E2;
+    color: #ffffff;
+    width: 1348px;
+}section#pag3{
+    background-color: #FFF9E2;
+    color: #ffffff;
+    width: 1348px;
+}
+section#pag4{
+    background-color: #FFF9E2;
+    color: #ffffff;
+    width: 1348px;
+}

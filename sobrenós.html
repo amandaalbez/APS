@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Blue Beaches</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="img/logo.png" />
+    <!--Imagem de Fundo Pag1 e Sedes-->
+    <style>
+        section#pag1{
+            padding-top: 40rem;
+            padding-bottom: 6rem;
+            background-image: url("img/sobre.png");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center center;
+            background-size: cover;
+    }
+        section#sedes{
+            width: 100%;
+            height:90%;
+            background-image: url("img/fundo3.png");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center center;
+            background-size: cover;
+    }
+    </style>
+  </head>
+  <body>
+    <!--NavBar Transparente -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom">
+        <a class="navbar-brand" href="aps.html">
+            <img src="img/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            Blue Beaches
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav ml-auto">
+                <li>
+                    <a href="sobrenós.html" class="nav-link">Sobre nós</a>
+                </li>
+                <li>
+                    <a href="campanha.html" class="nav-link">Campanhas</a>
+                </li>
+                <li>
+                    <a href="junte-se.html" class="nav-link">Junte-se a nós</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Card1 -->
+    <section class="page-section bg-light" id="pag1">
+        <div class="card text-black mb-5" style="position: absolute; top: 450px; left: 15%; width: 75%;height: 20%;text-align: center;background-color:rgb(182, 182, 182);">
+            <div class="card-body">
+              <p class="card-text" style="padding-top: 23px">A Blue Beaches foi fundada em 2020, para agir de maneira direta no combate a crimes ambientais no oceano.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Card2 + Imagem Arraia -->
+    <section>
+        <div class="card text-black mb-5" style="position: absolute; top: 750px; left: 42%; width: 55%;height: 32%;text-align: center;background-color:rgb(147, 241, 218);">
+            <div class="card-body">
+              <p class="card-text" style="padding-top: 23px">Somos uma organização 100% independente no qual nossa missão é proteger a vida debaixo d’água e acabar com a destruição de habitats marinhos. A Blue Beaches utiliza táticas inovadoras e ação direta para defender, conservar e proteger a biodiversidade de nossos rios e mares e aplicar as leis de conservação.</p>
+            </div>
+          </div>
+        <img src="img/arraia3.png" alt="arraia" style="margin-top: -75px;margin-left: 90px;">
+    </section>
+     <!-- Card3 + Imagem Tartaruga -->
+     <section>
+        <div class="card text-black mb-5" style="position: absolute; top: 1150px; left: 5%; width: 52%;height: 32%;text-align: center;background-color:rgb(147, 241, 218);">
+            <div class="card-body">
+              <p class="card-text" style="padding-top: 23px">Dos gigantes até as menores criaturas, nós desejamos proteger todas as espécies do litoral norte. Com campanhas em defesa dos animais, fazendo defesa a atividades ilícitas praticadas em nossas águas.</p>
+            </div>
+          </div>
+        <img src="img/tartaruga.png" alt="arraia" style="margin-top: -75px;margin-left: 890px;">
+    </section>
+    <!--Página Sedes-->
+    <section class="page-section page-custom" id="sedes" style="position: absolute;top: 1550px; background-color: #041937;">
+        <div class="container">
+            <div class="text-end">
+                <h1 class="section-heading text-start" style="position: absolute; top: 170px; left: 40%; color: white;"></br>Faça a diferença</h1>
+                <nav><a class="btn btn-light" href="junte-se.html" role="button" style="position: absolute;top: 320px; left: 48%;border-radius: 10px; background-color:#041937; color: #ffffff;">Seja voluntário</a></nav>
+                <p style="position: absolute; font-size: 100%;top: 500px; left: 111px;color: #ffffff;">Blue Beaches</br>Rua Nove - N° 10</br>Praia do Sapê - Ubatuba</p>
+                <p style="position: absolute; font-size: 100%;top: 500px; left: 330px;color: #ffffff;">(12)98644-4587</br>@bluebeaches</br>bluebeaches@gmail.com</p>
+            </div>       
+        </div>
+    </section>
+    <!--Mudar cor da nav bar ao descer a tela-->
+    <script>
+        const navEl = document.querySelector('.navbar');
+
+        window.addEventListener('scroll', () => {
+            if(window.scrollY >= 56){
+                navEl.classList.add('navbar-scrolled');
+            } else if(window.scrollY < 56){
+                navEl.classList.remove('navbar-scrolled');
+            }
+        });
+    </script>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

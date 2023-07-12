@@ -1,0 +1,25 @@
+.navbar-custom{
+    background-color: transparent;
+}
+.navbar-scrolled{
+    background-color: black;
+}
+.navbar{
+    transition: all 0.5s;
+}
+
+section#contact{
+    background-color: #041937;
+    margin-top: 35%;
+}
+section#contact form#contactForm .form-group-textarea textarea {
+    height: 100%;
+    min-height: 10rem;
+}
+section#contact form#contactForm .form-group input.form-control {
+    height: auto;
+}
+section#contact form#contactForm .form-group input,
+section#contact form#contactForm .form-group textarea {
+  padding: 1.25rem;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/styles3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Blue Beaches</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="img/logo.png" />
+    <!--Imagem de Fundo Pag1-->
+    <style>
+      section#pag1{
+            padding-top: 40rem;
+            padding-bottom: 6rem;
+            background-image: url("img/junte-se.png");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center center;
+            background-size: cover;
+        }
+    </style>
+  </head>
+  <body>
+    <!--NavBar Transparente -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom">
+        <a class="navbar-brand" href="aps.html">
+            <img src="img/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            Blue Beaches
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav ml-auto">     
+                <li>
+                    <a href="sobrenós.html" class="nav-link">Sobre nós</a>
+                </li>
+                <li>
+                    <a href="campanha.html" class="nav-link">Campanhas</a>
+                </li>
+                <li>
+                    <a href="junte-se.html" class="nav-link">Junte-se a nós</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Card 1 -->
+    <section class="page-section bg-light" id="pag1">
+        <div class="card text-black mb-5" style="position: absolute; top: 450px; left: 45%; width: 50%; background-color:rgb(147, 241, 218);">
+            <div class="card-body">
+                <p class="card-text">Os voluntários podem se envolver com a Blue Beaches de várias maneiras. Além de poder participar pessoalmente de nossos eventos de ação direta, você pode até trabalhar remotamente longe de casa.</p>
+            </div>
+            </div>
+    </section>
+    <!--Card 2 + Imagem -->
+    <section class="page-section bg-light" id="pag2">
+        <img class="text-end" src="img/9.png" style="position: absolute; top: 650px; left: 798px; width: 550px; height: 550px;">
+        <div class="card text-black mb-5" style="position: absolute; top: 850px; left: 5%; width: 50%; background-color:rgb(147, 241, 218);">
+            <div class="card-body">
+                <p class="card-text">Jornalistas, fotógrafos, designers, desenvolvedores web, publicitários e pessoas de diversas outras áreas compõem nosso quadro de voluntários fixos. Inscreva-se através do botão abaixo, conte-nos sobre sua disponibilidade e venha utilizar seus talentos na causa da preservação do oceano.</p>
+            </div>
+        </div>
+        <nav>
+            <a class="btn btn-light" href="#contact" role="button" style="position: absolute;  top: 1020px; left: 80px; border-radius: 30px; background-color:#041937; color: white;">Quero ser voluntário</a>
+        </nav>
+    </section>
+    <!-- Contato-->
+    <section class="page-section" id="contact">
+        <div class="container"></br></br></br>
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase" style="color:white;">Preencha suas informações</h2>
+            </div></br></br>
+            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <div class="row align-items-stretch mb-5">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <!-- Nome-->
+                            <input class="form-control" id="name" type="text" placeholder="Nome Completo"/>
+                            <div class="invalid-feedback" data-sb-feedback="name:required">Nome Completo</div>
+                        </div>
+                        <div class="form-group">
+                            <!-- Email-->
+                            <input class="form-control" id="email" type="email" placeholder="Email"/>
+                            <div class="invalid-feedback" data-sb-feedback="email:required">Email</div>
+                        </div>
+                        <div class="form-group mb-md-0">
+                            <!-- Telefone -->
+                            <input class="form-control" id="phone" type="tel" placeholder="Telefone"/>
+                            <div class="invalid-feedback" data-sb-feedback="phone:required">Telefone</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group form-group-textarea mb-md-0">
+                            <!-- Messagem-->
+                            <textarea class="form-control" id="message" placeholder="Mensagem" data-sb-validations="required"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <!-- Botão de enviar-->
+                <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Enviar</button></div>
+            </form></br></br>
+        </div>
+    </section>    
+    <!--Mudar cor da nav bar ao descer a tela-->
+    <script>
+        const navEl = document.querySelector('.navbar');
+
+        window.addEventListener('scroll', () => {
+            if(window.scrollY >= 56){
+                navEl.classList.add('navbar-scrolled');
+            } else if(window.scrollY < 56){
+                navEl.classList.remove('navbar-scrolled');
+            }
+        });
+    </script>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
