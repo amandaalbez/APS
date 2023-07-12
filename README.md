@@ -18,5 +18,7 @@ Pois como dizia Klink, Amyr, escritor e velejador, ‘’ O mar não é um obst�
 ![ezgif com-gif-maker (1)](https://github.com/amandaalbez/APS/assets/104281621/f3a47275-ca2e-4ebc-95e4-28db4e6bda9f)
 
 **<h2>💙Tela Campanhas</h2>**
+![ezgif com-gif-maker (2)](https://github.com/amandaalbez/APS/assets/104281621/05487875-28d8-46b5-9cab-74c69a857e70)
 
+**<h2>🤝🏻Tela Junte-se a nós</h2>**
 
