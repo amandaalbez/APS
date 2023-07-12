@@ -12,4 +12,8 @@ A ideia desse projeto é amplificar e aumentar o alcance da importância da cons
 Pois como dizia Klink, Amyr, escritor e velejador, ‘’ O mar não é um obstáculo: é um caminho’’.
 
 **<h2>🏠Tela Home</h2>**
+![ezgif com-gif-maker](https://github.com/amandaalbez/APS/assets/104281621/1dfc3a78-f499-4096-bb07-7057f3b1971d)
+
+**<h2>📌Tela Sobre Nós</h2>**
+
 
